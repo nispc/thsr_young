@@ -1,0 +1,7 @@
+{ 
+"name": "高鐵少年票訂票小工具", 
+"version": "0.2",
+"manifest_version": 2, 
+"description": "本工具可以在台灣高鐵網路售票網站(https://irs.thsrc.com.tw/IMINT/)中提供訊息以利辨別列車是否提供少年優惠票(http://www.thsrc.com.tw/event/2013/Teenagers/index.html)之票種。",
+"content_scripts": [{"matches": ["https://irs.thsrc.com.tw/IMINT/*"],"css": ["style.css"],"js":["jquery.js","js.js"]}]
+}
